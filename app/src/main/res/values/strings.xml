@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QuestionAnswerForum</string>
+
+    <string-array name="stdent_teacher">
+        <item>Select</item>
+        <item>Student</item>
+        <item>Teacher</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item  android:id="@+id/admin_login"
+        android:title="Admin Login"/>
+    <item  android:id="@+id/student_login"
+        android:title="Student Login"/>
+    <item  android:id="@+id/teacher_login"
+        android:title="Teacher Login"
+        app:showAsAction="withText"/>
+
+
+    <!--<item  android:id="@+id/post_qstn"
+        android:title="Post Question"/>
+    <item  android:id="@+id/my_qstns"
+        android:title="My Questions"/>
+    <item  android:id="@+id/list_of_qstns"
+        android:title="List Of Questions"
+        app:showAsAction="withText"/>-->
+
+</menu>

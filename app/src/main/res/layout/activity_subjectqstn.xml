@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Subject Title"
+        android:layout_marginTop="14dp"
+        android:textColor="#A76464"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_subject"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Enter Subject Title"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:textColorHint="#C5BFC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Post your Question"
+        android:layout_marginTop="14dp"
+        android:textColor="#A76464"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_question"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Post Your Question"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:textColorHint="#C5BFC2"
+        android:minLines="3"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:text="Tags(Max 5 Tags)"
+        android:layout_marginTop="14dp"
+        android:textColor="#A76464"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_tags"
+        android:background="@drawable/edittext_rounded"
+        android:hint="Tags(Max 5 Tags)"
+        android:padding="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:textColorHint="#C5BFC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:text="Submit"
+        android:layout_gravity="right"
+        android:layout_margin="15dp"
+        android:background="@drawable/button_rounded"
+        android:layout_width="150dp"
+        android:layout_height="40dp" />
+
+
+
+
+
+
+</LinearLayout>

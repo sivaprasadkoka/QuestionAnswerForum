@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item  android:id="@+id/logout"
+        android:title="Logout"/>
+
+
+
+    <!--<item  android:id="@+id/post_qstn"
+        android:title="Post Question"/>
+    <item  android:id="@+id/my_qstns"
+        android:title="My Questions"/>
+    <item  android:id="@+id/list_of_qstns"
+        android:title="List Of Questions"
+        app:showAsAction="withText"/>-->
+
+</menu>
